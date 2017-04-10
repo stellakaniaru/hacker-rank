@@ -1,4 +1,7 @@
-''''Given a string that is not more than 1000 characters,check if its a panagram or not.If its a panagram,print out "panagram" else "not panagram".A panagram is a string that contains all letters of the alphabet.'''
+''''Given a string that is not more than 1000 characters,
+check if its a panagram or not.If its a
+panagram,print out "panagram" else "not panagram".
+A panagram is a string that contains all letters of the alphabet.'''
 
 #List the alphabet and convert it to a set
 alphabet = set(('a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 
@@ -13,4 +16,4 @@ if len(string) <= 1000:
 	if alphabet.issubset(string):
 		print ('pangram')
 	else:
-		print ('pangram')
+		print ('not pangram')
